@@ -187,26 +187,6 @@ button.onclick = () => {
     }
   }
 } */
-
-//    Сворити інпут текстового типу.
-//     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
-//     Кинути алерт з попередженням у випадку якщо містить.
-//     Перевірку робити при натисканні на кнопку
-const arr = ['Бля', 'Сука', 'Блядь'];
-const button = document.createElement('button');
-const inputLine = document.createElement('input');
-button.innerText = 'Check';
-document.body.appendChild(inputLine);
-document.body.appendChild(button);
-button.onclick = () => {
-  for (let i = 0; i < arr.length; i++) {
-    let text = inputLine.value.toLowerCase();
-    if (text.includes(arr[i].toLowerCase())) {
-      return alert('Bad word detected');
-    }
-  // return console.log('allright');
-  }
-}
 /* for (let x = 0; x < inputLine; x++){
      if (x.toLowerCase) {
       alert('bad word detected')
