@@ -186,14 +186,6 @@ button.onclick = () => {
     }
   }
 } */
-/* for (let x = 0; x < inputLine; x++){
-     if (x.toLowerCase) {
-      alert('bad word detected')
-      return ;
-    }
-    console.log(inputLine.value);
-    } 
-}} */
 
 //-- Створити скрипт, котрий бере зчитує на сторінці (rules.html) текст і робить збоку меню-зміст по всіх заголовках які є в тексті.
 //    При кліку на пункт заголовку ви маєте відправлятись  до цього пункту в тексті
