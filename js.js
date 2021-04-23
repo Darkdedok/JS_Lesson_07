@@ -192,23 +192,29 @@ button.onclick = () => {
 //     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
 //     Кинути алерт з попередженням у випадку якщо містить.
 //     Перевірку робити при натисканні на кнопку
-/* const arr = ['Бля', 'Сука', 'Блядь'];
+const arr = ['Бля', 'Сука', 'Блядь'];
 const button = document.createElement('button');
 const inputLine = document.createElement('input');
 button.innerText = 'Check';
 document.body.appendChild(inputLine);
 document.body.appendChild(button);
 button.onclick = () => {
-  let split = inputLine.value.split(' ');
-  for (let i = 0; i < arr.length; i++) { 
-    for (let x = 0; x < split.length; x++){
-    if (arr[i].toLowerCase() === split[x].toLowerCase()) {
+  for (let i = 0; i < arr.length; i++) {
+    let text = inputLine.value.toLowerCase();
+    if (text.includes(arr[i].toLowerCase())) {
+      return alert('Bad word detected');
+    }
+  // return console.log('allright');
+  }
+}
+/* for (let x = 0; x < inputLine; x++){
+     if (x.toLowerCase) {
       alert('bad word detected')
       return ;
     }
-    }
-  }
-} */
+    console.log(inputLine.value);
+    } 
+}} */
 
 //-- Створити скрипт, котрий бере зчитує на сторінці (rules.html) текст і робить збоку меню-зміст по всіх заголовках які є в тексті.
 //    При кліку на пункт заголовку ви маєте відправлятись  до цього пункту в тексті
