@@ -182,8 +182,7 @@ document.body.appendChild(button);
 button.onclick = () => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].toLowerCase() === inputLine.value.toLowerCase()) {
-      alert('bad word detected')
-      return ;
+      return alert('bad word detected');
     }
   }
 } */
